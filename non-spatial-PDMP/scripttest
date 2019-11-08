@@ -1,0 +1,16 @@
+#!/bin/bash
+
+cd ./result
+
+date
+g++ -c ../code/Microbe.cpp -o ./compil/Microbe.o
+g++ -c ../code/Population.cpp -o ./compil/Population.o
+g++ -o executablecluster.out ../main.cpp ./compil/Population.o ./compil/Microbe.o
+
+#See the 7 arguments describes in main.cpp l.16-18
+time ./executablecluster.out 60 8 0.5 10 1e+2 0.1 0.1
+date
+
+
+
+
