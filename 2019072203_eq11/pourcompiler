@@ -1,6 +1,0 @@
-g++ -c ../code/Microbe.cpp -o ./compil/Microbe.o
-g++ -c ../code/Population.cpp -o ./compil/Population.o
-g++ -o executable.out ../main.cpp ./compil/Population.o ./compil/Microbe.o
-
-
-
