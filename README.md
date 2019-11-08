@@ -1,6 +1,11 @@
 # IBMAbsLemFer
 C++ and R codes for running the microbial individual-based model and plotting Figures 1 to 4.
 
+All models should contain "totaux" and "communs" folders in "result" folder.
+Each simulation generates one output file going into "totaux" folder, which contains total number of individuals (M) and molecules (C,D,Z) at each writing step (can be larger than time step) (example of use in figures 1 and 2).
+A "scoresCommuns" output file can be generated after the end of simulation - and would go into "communs" folder (see below for how) - to combine info of several simulations that differ only by the random generator (but same parameter values) (example of use in figures 3 and 4).
+Spatial models additionally generate for each simulation one output file going into "cases", which contains the number of individuals (M) and molecules (C,D,Z) in each microsite of the whole lattice to plot grids (example of use in figure 2).
+
 To test a new value of argument in one of the codes:
 1- change value in “description file”
 2- check path in "script" (if you creates a new folder for the new test, make sure name of folder in path is the right one)
