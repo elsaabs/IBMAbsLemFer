@@ -2,7 +2,7 @@
 C++ and R codes to run the 3 PDMP models and plot Figures 1 to 4.
 
 "non-spatial-PDMP" is the code of the non spatial PDMP (used for Figure 1).
-"spatial-PDMP-pairwise-contest" is the code of the spatial PDMP with 2 microbial strains (one large resident and one rare mutant) in competition (used for Figures 2 and 3).
+"spatial-PDMP-pairwise-contest" is the code of the spatial PDMP with 2 coexisting/competing microbial strains (one large resident and one rare mutant) (used for Figures 2 and 3).
 "spatial-PDMP-one-strain" is the spatial PDMP with 1 microbial strain to get average decomposition rate and soil C stock values per phi value (used for Figure 4).
 
 All models should contain "totaux" and "communs" folders in "result" folder.
