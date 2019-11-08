@@ -25,4 +25,4 @@ The code "non-spatial-PDMP" was ran on computer, while codes "spatial-PDMP-pairw
 
 The outputs used for figures can be found in the "plots-..." folder ("result" folders are empty).
 
-Note: check path in R files. The written ones correspond to codes folder saved on Desktop.
+Note: check path in R files. The written ones correspond to codes folders saved on Desktop.
