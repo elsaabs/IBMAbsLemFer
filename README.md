@@ -13,5 +13,7 @@ To run one test on the cluster:
 
 To run the code to get "communs" file:
 1- adjust min(IDcluster), max(IDcluster), max(IDjob) in "scriptcreationScores”
-2- “bash scriptcreationScores” (directory = main folder)
+2- “bash scriptcreationScores” (directory = main folder) (will run "creationScores.cpp")
 The file “scoresCommuns.txt” will be created in the main folder.
+
+To run "spatial-PDMP-pairwise-contest" and "spatial-PDMP-one-strain" on computer instead of cluster, delete "description file" and "to-compile-on-cluster", and create a ifle "script" as in the "non-spatial-PDMP" folder.
