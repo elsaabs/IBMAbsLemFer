@@ -23,4 +23,4 @@ The file “scoresCommuns.txt” will be created in the main folder.
 
 The code "non-spatial-PDMP" was ran on computer, while codes "spatial-PDMP-pairwise-contest" and "spatial-PDMP-one-strain" were ran on cluster to test several values of "Diff" and "phi*" respectively. To run the 2 latter on computer, delete "description file" and "to-compile-on-cluster", and create a file "script" like "scripttest" in "non-spatial-PDMP".
 
-The outputs used for figures can be found in the "plots-..." folder ("result" folders are eempty).
+The outputs used for figures can be found in the "plots-..." folder ("result" folders are empty).
